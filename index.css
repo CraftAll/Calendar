@@ -1,0 +1,35 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite  ;
+}
+.calendar{
+    border-collapse: collapse;
+    background-color: snow;
+}
+.days, .weekDays{
+    border: solid 2px #4ac;
+    width: 75px;
+    height: 37px;
+    text-align: center;
+}
+.first{
+    border-left: 0;
+}
+.last{
+    border-right: 0;
+}
+.top{
+    border-top: 0;
+}
+.bottom{
+    border-bottom: 0;
+}
+#calendarHead{
+    background-color: lightskyblue;
+    width: 533px;
+    display: flex;
+
+}

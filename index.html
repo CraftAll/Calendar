@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div id="calendarHead">
+      <p>November</p>
+      <input id="dateSelector" onchange="newDate(value)" type="date" />
+    </div>
+    <table class="calendar">
+      <tbody>
+        <tr>
+          <th class="weekDays top first">Sunday</th>
+          <th class="weekDays top">Monday</th>
+          <th class="weekDays top"></th>
+          <th class="weekDays top"></th>
+          <th class="weekDays top"></th>
+          <th class="weekDays top">Friday</th>
+          <th class="weekDays top last">Saturday</th>
+        </tr>
+        <tr class="week">
+          <td class="days first"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days last"></td>
+        </tr>
+        <tr class="week">
+          <td class="days first"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days last"></td>
+        </tr>
+        <tr class="week">
+          <td class="days first"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days last"></td>
+        </tr>
+        <tr class="week">
+          <td class="days first"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days"></td>
+          <td class="days last"></td>
+        </tr>
+        <tr class="week">
+          <td class="days bottom first"></td>
+          <td class="days bottom"></td>
+          <td class="days bottom"></td>
+          <td class="days bottom"></td>
+          <td class="days bottom"></td>
+          <td class="days bottom"></td>
+          <td class="days bottom last"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="days.js"></script>
+  </body>
+</html>
